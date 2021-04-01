@@ -347,6 +347,94 @@ h2.sect-h {
     font-size: 20px;
     font-size: 1.25rem; }
 
+.small-btn {
+  background-color: #1D9E6C;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 70px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -khtml-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .small-btn:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -khtml-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    background-color: #08bd78; }
+  .small-btn p {
+    color: #f3f2f2;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: "Nunito Sans", sans-serif; }
+
+.c-btn {
+  background-color: #1D9E6C;
+  color: #EBEBEB;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  max-width: 170px;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  padding: 20px 10px 20px 25px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -khtml-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .c-btn:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -khtml-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    background-color: #08bd78; }
+  .c-btn p {
+    color: #f3f2f2;
+    font-size: 17px;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif; }
+  .c-btn svg.outlined {
+    margin-left: auto;
+    width: 28px;
+    height: 28px;
+    stroke: #f3f2f2;
+    stroke-width: 2px;
+    fill: none; }
+
 main > div {
   margin-bottom: 20px; }
 
